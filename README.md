@@ -14,18 +14,20 @@ Dependencies
 
 This layer depends on:
 
-|  URI: git://git.openembedded.org/meta-openembedded
-|  layers: openembedded-layer
-|  branch: krogoth
+```txt
+  URI: git://git.openembedded.org/meta-openembedded
+  layers: openembedded-layer
+  branch: krogoth
 
-|  URI: git://git.yoctoproject.org/meta-raspberrypi
-|  branch: master
+  URI: git://git.yoctoproject.org/meta-raspberrypi
+  branch: master
 
-|  URI: https://github.com/mickey-happygolucky/meta-rpi3-bt-support.git
-|  branch: master
+  URI: https://github.com/mickey-happygolucky/meta-rpi3-bt-support.git
+  branch: master
 
-|  URI: https://github.com/mickey-happygolucky/meta-hdmi5inch-rpi.git
-|  branch: master
+  URI: https://github.com/mickey-happygolucky/meta-hdmi5inch-rpi.git
+  branch: master
+```
 
 Patches
 =======
