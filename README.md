@@ -14,18 +14,18 @@ Dependencies
 
 This layer depends on:
 
-  URI: git://git.openembedded.org/meta-openembedded
-  layers: openembedded-layer
-  branch: krogoth
+|  URI: git://git.openembedded.org/meta-openembedded
+|  layers: openembedded-layer
+|  branch: krogoth
 
-  URI: git://git.yoctoproject.org/meta-raspberrypi
-  branch: master
+|  URI: git://git.yoctoproject.org/meta-raspberrypi
+|  branch: master
 
-  URI: https://github.com/mickey-happygolucky/meta-rpi3-bt-support.git
-  branch: master
+|  URI: https://github.com/mickey-happygolucky/meta-rpi3-bt-support.git
+|  branch: master
 
-  URI: https://github.com/mickey-happygolucky/meta-hdmi5inch-rpi.git
-  branch: master
+|  URI: https://github.com/mickey-happygolucky/meta-hdmi5inch-rpi.git
+|  branch: master
 
 Patches
 =======
@@ -48,6 +48,7 @@ yocto build tree, you can add it to the build system by adding the
 location of the cqpub-rpi3-fan layer to bblayers.conf, along with any
 other layers needed. e.g.:
 
+```txt
   BBLAYERS ?= " \
     /path/to/yocto/meta \
     /path/to/yocto/meta-poky \
@@ -58,3 +59,4 @@ other layers needed. e.g.:
 	/path/to/yocto/meta-hdmi5inch-rpi \
     /path/to/yocto/meta-cqpub-rpi3-fan \
     "
+```
